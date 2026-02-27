@@ -1,17 +1,73 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🧠 Burnout AI – Intelligent Workforce Wellness Platform
 
-# Run and Deploy the Burnout Prediction App
+Burnout AI is a full-stack AI-powered web application that predicts employee burnout risk using machine learning classification models and delivers actionable insights through a modern SaaS-style interface.
 
-This contains everything you need to run your app locally.
+---
 
-## Run Locally
+## 🚀 Features
 
-**Prerequisites:**  Node.js
+- Multi-class burnout risk prediction (Low, Moderate, High)
+- Random Forest classification model
+- React + TypeScript frontend
+- Express backend API
+- Python ML microservice
+- Three.js animated background
+- Framer Motion transitions
+- Professional healthcare-style UI
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Run the app:
-   `npm run dev`
+## 🏗 Architecture
+
+Frontend (React + Vite)
+⬇
+Express API
+⬇
+Python ML Inference
+⬇
+Random Forest Model (.pkl)
+
+---
+
+## 📊 Machine Learning
+
+Models trained:
+- Logistic Regression
+- KNN
+- Naive Bayes
+- Decision Tree
+- Bagging
+- Random Forest (selected)
+
+Final Model: Random Forest  
+Accuracy: ~84%
+
+---
+
+## 🛠 Tech Stack
+
+Frontend:
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Three.js
+
+Backend:
+- Node.js
+- Express
+- Python
+- scikit-learn
+
+---
+
+## ⚠ Disclaimer
+
+This tool is for educational and early risk assessment purposes only.
+It does not replace professional medical advice.
+
+---
+
+## 📌 Author
+
+Donal Siby
