@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-primary: #00BFA6;
+  --color-accent: #4F8CFF;
+  --color-bg-light: #F7FAFC;
+  --color-risk-low: #52C41A;
+  --color-risk-moderate: #FFA940;
+  --color-risk-high: #FF4D4F;
+  --color-risk-critical: #722ED1;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+    font-family: var(--font-sans);
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+}
+
+.glass {
+  @apply backdrop-blur-xl bg-white/70 border border-white/20 shadow-2xl;
+}
+
+.glass-dark {
+  @apply backdrop-blur-xl bg-slate-900/80 border border-white/10 shadow-2xl;
+}
